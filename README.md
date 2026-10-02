@@ -1,43 +1,6 @@
 ﻿# Customer-Support-Ticket-Priority-Prediction
 
- # Customer Support Ticket Priority Prediction and Automated Assignment System Using Agentforce
-
-A Salesforce project that uses **Agentforce** and **Salesforce Flow** to analyze customer support tickets, set their priority, and assign them to a support agent automatically.
-
-## Problem Statement
-
-Support teams receive many tickets daily, but prioritization and assignment are often manual. This delays critical issues and hurts customer satisfaction.
-
-## Solution
-
-An Agentforce agent takes an **Account Name**, runs the **Support Ticket Intelligence** flow, and returns the ticket priority, the assigned agent, and the ticket Id.
-
-## Tools Used
-
-Salesforce Developer Edition, Agentforce Builder, Salesforce Flow, VS Code, Salesforce CLI, GitHub
-
-## Components
-
-- **Agent:** Customer Service Agent
-- **Subagent:** Support Ticket Priority Analysis
-- **Flow:** Support Ticket Intelligence (Autolaunched Flow)
-- **Input:** `varAccountName`
-- **Outputs:** `varAccountId`, `varTicketId`, `varPriorityLevel`, `varAssignedTo`, `varActionMessage`
-
-## Sample Output
-
-```
-The support ticket has been analyzed and prioritized.
-Ticket is low priority and queued for processing.
-Assigned To: Senior Support Agent
-Priority: High
-Ticket Id: a1UgK0000022FmbUAE
-```
 
 ## Team
 
 Deepika V (Team Lead), Manisha K, Lavanya B, Gopika R
-
-## Outcome
-
-Ticket triage becomes faster and consistent with no manual effort, so critical issues are resolved sooner.
