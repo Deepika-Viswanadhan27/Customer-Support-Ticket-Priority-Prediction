@@ -1,6 +1,6 @@
 ﻿# Customer-Support-Ticket-Priority-Prediction
 
+##Project Documentation
 
-## Team
+[View Complete Project Documentation](PROJECT.pdf)
 
-Deepika V (Team Lead), Manisha K, Lavanya B, Gopika R
